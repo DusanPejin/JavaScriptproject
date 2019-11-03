@@ -1,0 +1,288 @@
+.navbar-logo {
+    width: 700px;
+}
+
+/*SALE u navbaru treba da bude crvene boje*/
+.sale {
+    color:red;
+}
+
+/*SAJT ZA ZASTAVICE*/
+/*https://www.countryflags.com/en/united-kingdom-flag-emoji.html*/
+/*Zastavica Srbije*/
+.flags.flag-rs:before {
+    background-position: -64px -302px;
+}
+.flags:before {
+    border-radius: 30px;
+    width: 16px;
+    height: 16px;
+    background-image: url(Image/serbia-flag-round-icon-16.png);
+    background-position: 0 -1999px;
+    content: "";
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+    box-shadow: 0 1px 0 rgba(34,34,34,.1);
+    margin-left: 1px;
+}
+/*Zastavica Velike Britanije*/
+.zastavica1.zastava1-gb:before {
+    background-position: -64px -302px;
+}
+.zastavica1:before {
+    border-radius: 30px;
+    width: 16px;
+    height: 16px;
+    background-image: url(Image/united-kingdom-flag-round-icon-16.png);
+    background-position: 0 -1999px;
+    content: "";
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+    box-shadow: 0 1px 0 rgba(34,34,34,.1);
+    margin-left: 1px;
+}
+/*Zastavica Francuske*/
+.zastavica2.zastava2-fr:before {
+    background-position: -64px -302px;
+}
+.zastavica2:before {
+    border-radius: 30px;
+    width: 16px;
+    height: 16px;
+    background-image: url(Image/france-flag-round-icon-16.png);
+    background-position: 0 -1999px;
+    content: "";
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+    box-shadow: 0 1px 0 rgba(34,34,34,.1);
+    margin-left: 1px;
+}
+/*Zastavica Nemacke*/
+.zastavica3.zastava3-ger:before {
+    background-position: -64px -302px;
+}
+.zastavica3:before {
+    border-radius: 30px;
+    width: 16px;
+    height: 16px;
+    background-image: url(Image/germany-flag-round-icon-16.png);
+    background-position: 0 -1999px;
+    content: "";
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+    box-shadow: 0 1px 0 rgba(34,34,34,.1);
+    margin-left: 1px;
+}
+
+.navbarColor{
+    background-color: white;
+}
+
+/*polje gde pise THE NEW LABELS TO KNOW NOW*/
+.pozicija {
+    text-align: center;
+    background: lightgrey;
+    color: black;
+}
+
+/*svetlo siva tri linka ispod navbara*/
+.podmeni {
+    text-align: center;
+    color: black;
+    opacity: 0.2;
+}
+
+/*celokupan sadrzaj u telu sajta*/
+#all-content {
+    display: flex;
+}
+
+.responsive {
+    max-width:100%;
+    height: auto;
+}
+
+/*Obican taster */
+.izledButton{
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+/*prvi sadrzaj tela sajta*/
+#firstsection {
+    width: 100%;
+    /*height: 0px;*/
+    /*margin-left: 20px;*/
+    background: white;
+    line-height: 25px;
+}
+.centriranje {
+    /*font-family: "Abyssinica SIL";*/
+    font-size: medium;
+    font-style: italic;
+}
+
+/*drugi sadrzaj tela sajta*/
+#proizvodi {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 35px;
+}
+.rightcolumn {
+    width:30%;
+    padding-left: 35px;
+    overflow: inherit;
+
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+.zvezda {
+    float:right;
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    width: 20px;
+    height:20px;
+}
+.zvezda:hover{
+    opacity: 0.5;
+}
+.img-responsive {
+    /*border: 1px solid #ddd;*/
+    /*border-radius: 4px;*/
+    padding: 15px;
+    width:75%;
+    height:250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Footer*/
+footer {
+    background-color: #1a1a1a;
+    color: #f9f9f9;
+    line-height: 1.5;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+.velicinaslova {
+    font-size: 15px;
+}
+.ft-title {
+    color: lightgrey;
+    font-family: "Merriweather", serif;
+    font-size: 15px;
+    padding-bottom: 0.625rem;
+}
+
+/* Sticks footer to bottom */
+.container {
+    flex: 1;
+}
+/* Footer main */
+.ft-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+}
+
+/*Footer main*/
+input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+}
+input[type="submit"] {
+    background-color: #00d188;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+}
+/* Footer social */
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid;
+    padding-top: 1.25rem;
+}
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+/* Footer legal */
+.ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: black;
+}
+.ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+.ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
